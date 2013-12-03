@@ -1,4 +1,8 @@
-# myNewProject
-### a Sails application
-# node --debug `which sails` $@ lift
-# node-inspector &
+## a Sails application
+
+#Debug
+node --debug `which sails` $@ lift
+node-inspector &
+
+#Watch
+forever -w start app.js
